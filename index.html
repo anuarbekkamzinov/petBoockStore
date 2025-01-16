@@ -18,6 +18,9 @@
 <main class="main">
     <div class="container">
         <section class="main_content">
+
+            <!--  Card  -->
+
             <div class="wrapper">
                 <div class="logo">
                     <img class="logo_book" src="https://placehold.co/600x400" alt="lodo_book">
@@ -89,6 +92,28 @@
         </section>
     </div>
 </main>
+
+<!--  Modals  -->
+    <div class="modal__overlay">
+        <div class="modal__modal">
+            <label class="label" for="modal--book">Click </label><input id="modal--book" class="modal__items--book items__modal" placeholder="Название книги:">
+            <label class="label" for="modal--author">Click </label><input id="modal--author" class="items_items__author items__modal" placeholder="Автор книги:">
+            <label class="label" for="modal--release">Click </label><input id="modal--release" class="items_items__release items__modal" placeholder="Год книги:">
+            <label class="label" for="modal--description">Click </label><input id="modal--description" class="items_items__description items__modal" placeholder="Описание екниги:">
+
+            <div class="btn__content">
+                <button class="btn__modal btn__modal-add">
+                    Добавить
+                </button>
+                <button class="btn__modal btn__modal-cancel">
+                    Отменить
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
 <script src="./script/js.js"></script>
 </body>
 </html>
