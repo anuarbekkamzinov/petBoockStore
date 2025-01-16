@@ -5,3 +5,109 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: darkslategray;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding:  0;
+}
+h1 {
+    text-transform: uppercase;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    background: darkslategray;
+    text-align: center;
+    background: darkgreen;
+    margin: 0;
+}
+
+
+.header_h1__crud {
+
+}
+
+
+
+
+.main {
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+
+}
+
+.main_content {
+    display: flex;
+    gap: 50px;
+}
+
+.wrapper {
+    background: rgba(81, 106, 63, 0.17);
+    max-width: 300px;
+    margin-top: 50px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo_book {
+    width: 100%;
+}
+
+.items_h1__book {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.wrap_items {
+    margin: 10px;
+}
+
+.items_text__description{
+
+}
+
+.wrapper__addition {
+
+}
+
+.wrap_addition {
+
+    margin: 150px 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: darkslategray;
+}
+
+.wrap_addition {
+
+}
+
+.logo_addition {
+    width: 100%;
+    margin-top: 7px;
+}
